@@ -1,0 +1,15 @@
+platform :ios, '14.0'
+
+target 'Prototype' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Prototype
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'SDWebImage'
+  pod 'FloatingPanel'
+  pod 'SideMenu'
+end
